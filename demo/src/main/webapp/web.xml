@@ -1,0 +1,16 @@
+<servlet>
+    <servlet-name>Servlet1</servlet-name>
+    <servlet-path>foo.Servlet</servlet-path>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/enroll</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/pay</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>Servlet1</servlet-name>
+    <url-pattern>/bill</url-pattern>
+</servlet-mapping>
